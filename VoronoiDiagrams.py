@@ -36,11 +36,11 @@ def LlyodRelax(vor): #implementation of lloyds algorith for relaxing points
 
     return vor
 
-xMax = 200
-yMax = 100
-pointCount = 100
+xMax = 2000
+yMax = 1000
+pointCount = 20
 pList = []
-relaxations = 20
+relaxations = 10
 
 for i in range(pointCount):
     pList.append([rand.randrange(0,xMax),rand.randrange(0,yMax)])
