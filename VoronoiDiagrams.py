@@ -58,7 +58,7 @@ plt.show()
 
 
 for i in range(relaxations): #relaxing points
-    LlyodRelax(vor)
+    vor = LlyodRelax(vor)
     #plot = voronoi_plot_2d(vor)
     #plt.show()
 
